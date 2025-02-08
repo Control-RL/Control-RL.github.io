@@ -224,6 +224,9 @@ strong {
   padding-bottom: 100px;
 }
 
+.artists-section{
+  background-color: #7d7d7d;
+}
 .section-bg {
   background-color: var(--section-bg-color);
 }
