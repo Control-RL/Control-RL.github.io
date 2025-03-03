@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Control Theory & RL Spring</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+                
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-festava-live.css" rel="stylesheet">
+        
+<!--
+
+TemplateMo 583 Festava Live
+
+https://templatemo.com/tm-583-festava-live
+
+-->
+    </head>
+    
+    <body>
+
+        <main>
+
+            <!-- <header class="site-header">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-12 col-12 d-flex flex-wrap">
+                            <p class="d-flex me-4 mb-0">
+                                <i class="bi-person custom-icon me-2"></i>
+                                <strong class="text-dark">Control Theory & RL Spring 2025</strong>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </header> -->
+
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" hr ef="index.html">
+                    <!-- <a class="navbar-brand" href="https://www.cwi.nl/en/events/cwi-research-semester-programmes/control-theory-and-reinforcement/"> -->
+                        CWI Machine Learning
+                        <!-- <img src="images/cwi_semester_logo.png" class="" style="width:75px;height:75px;"> -->
+                    </a>
+                    
+                    <!-- 
+                    <a href="https://www.cwi.nl/en/events/cwi-research-semester-programmes/control-theory-and-reinforcement/">
+                        <div class="">
+                            <img src="images/cwi_semester_logo.png" class="">
+                        </div>
+                    </a> -->
+
+                    <!-- <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" class="btn custom-btn d-lg-none ms-auto me-4">
+                        Register
+                    </a> -->
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Programme</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Speakers</a>
+                            </li> -->
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Venue</a>
+                            </li> -->
+    
+                            <!-- <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                            </li> -->
+                        </ul>
+
+                        <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" class="btn custom-btn d-lg-block d-none">
+                            Register
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section main-banner" id="section_1">
+                <div class="section-overlay"></div>
+
+                <div class="container d-flex justify-content-center align-items-center">
+                    <div class="row">
+
+                        <div class="col-12 mt-auto mb-5 text-center">
+                            <!-- <small>CWI presents</small> -->
+
+                            <h1 class="text-white mb-5">Control Theory and Reinforcement Learning: Connections and Challenges - Spring School</h1>
+
+                            <a class="btn custom-btn smoothscroll" href="#section_2">Programme</a>
+                        </div>
+
+                        <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+                            <div class="date-wrap">
+                                <h5 class="text-white">
+                                    <i class="custom-icon bi-clock me-2"></i>
+                                    <!-- 17 - 21<sup>st</sup> March 2025 -->
+                                     Spring 2025 
+                                </h5>
+                            </div>
+
+                            <div class="location-wrap mx-auto py-3 py-lg-0">
+                                <h5 class="text-white">
+                                    <i class="custom-icon bi-geo-alt me-2"></i>
+                                    <!-- Science Park 125, Turingzaal, Amsterdam, Netherlands -->
+                                    <!-- Science Park 125, Amsterdam, Netherlands -->
+                                    Turing Hall, CWI, Science Park, Amsterdam, Netherlands
+                                </h5>
+                            </div>
+
+                            <!-- <div class="social-share">
+                                <ul class="social-icon d-flex align-items-center justify-content-center">
+                                    <span class="text-white me-3">Share:</span>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link">
+                                            <span class="bi-facebook"></span>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link">
+                                            <span class="bi-twitter"></span>
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link">
+                                            <span class="bi-instagram"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section-padding -->
+            <section class="section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 mb-4 mb-lg-0 d-flex align-items-center">
+                            <div class="services-info">
+                                <h2 class="text-whited mb-4">
+                                    <a href="https://www.cwi.nl/en/events/cwi-research-semester-programmes/control-theory-and-reinforcement/">
+                                        <!-- Control Theory & RL Research Semester Programme -->
+                                        Control Theory and Reinforcement Learning: Connections and Challenges
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                </h2>
+
+                                <p class="text-whited">
+                                    Control theory and reinforcement learning (RL) converge on a shared objective: 
+                                    facilitating autonomous, real-time decision-making to optimize dynamical processes. 
+                                    Historically, these disciplines have diverged in assumptions regarding available prior information 
+                                    and in analytical techniques applied. However, recent advances bridging the two domains are fostering collaborations. 
+                                    The CWI research semester programme in spring 2025, themed "Control Theory and Reinforcement Learning: Connections and Challenges", 
+                                    comprises a spring school and workshops on various sub-topics
+                                    to explore the intersections and challenges within these intertwined fields.
+                                </p>
+                                <img src="images/cwi_semester_logo.png" alt="Description">
+
+                                <h6 class="text-whited mt-4">
+                                    <a href="https://www.cwi.nl/en/events/cwi-research-semester-programmes/spring-school-control-theory-and-reinforcement-learning/" >
+                                        Spring School
+                                        <i class="bi bi-link-45deg"></i>
+                                    </a>
+                                    <!-- <i class="bi-person custom-icon me-2"></i> -->
+                                    <!-- <i class="bi bi-link-45deg"></i> -->
+                                </h6>
+
+                                <p class="text-whited">
+                                    This spring school emphasizes connections across control theory, reinforcement learning and 
+                                    stochastic approximation, enabling students to access these broader themes and start to work 
+                                    on cross-cutting projects. The school will be at a preparatory PhD level, suitable for advanced Master's 
+                                    and starting PhD students in these areas.
+                                    
+                                    <!-- <br><i class="custom-icon bi-clock me-2"></i> 17-21 (Monday-Friday) March, 2025 -->
+                                    <!-- <br><i class="custom-icon bi-geo-alt me-2"></i> Turing Hall, CWI, Science Park, Amsterdamm Netherlands -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- artists-section section-padding -->
+            <section class="artists-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">Programme</h1>
+
+                            <div class="table-responsive">
+                                <table class="schedule-table table table-dark">
+                                    <thead>
+                                        <tr>
+                                            <!-- <th scope="col">Date</th> -->
+
+                                            <th scope="col">Monday</th>    
+                                            
+                                            <th scope="col">Tuesday</th>
+
+                                            <th scope="col">Wednesday</th>
+
+                                            <th scope="col">Thursday</th>
+
+                                            <th scope="col">Friday</th>
+
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr> <!-- SLOT_1 -->
+                                            <!-- 
+                                            <td class="table-background-image-wrap pop-background-image">
+                                                    <p style="font-size: 20px; color: black;">Registration</p>
+    
+                                                    <p class="mb-2">5:00 - 7:00 PM</p>
+    
+                                                    <p>By Adele</p>
+    
+                                                    <div class="section-overlay"></div>
+                                            </td> 
+                                            -->
+                                            
+                                            <!-- Monday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Registration: <br>08:30 - 09:00 /</p>
+                                                <!-- <p style="font-size: 14px; color: black;">08:30 - 09:00 / </p> -->
+                                                <p style="font-size: 16px; color: black;">Welcome by <br><b>Prof Ton de Kok</b> <br>09:00 - 09:15</p>
+                                                <!-- <p style="font-size: 16px; color: black;font-weight: 400;">Prof Ton de Kok</p> -->
+                                                <!-- <p style="font-size: 14px; color: black;">09:00 - 09:15</p> -->
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Walk-in <br>coffee/tea <br>08:30 - 09:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">08:30 - 09:00</p> -->
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Walk-in <br>coffee/tea <br>08:30 - 09:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">08:30 - 09:00</p> -->
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Walk-in <br>coffee/tea <br>08:30 - 09:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">08:30 - 09:00</p> -->
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Walk-in <br>coffee/tea <br>08:30 - 09:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">08:30 - 09:00</p> -->
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_2 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Welcome</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Prof Ton de Kok</p>
+                                                <p style="font-size: 14px; color: black;">09:00 - 09:15</p>
+                                            </td> -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Deterministic, discrete-time <br>& continuous-time control <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">09:15 - 10:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Generalized policy iteration, <br>planning, partial observability <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Frans Oliehoek</p>
+                                                <p style="font-size: 14px; color: black;">09:00 - 10:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic <br>approximation <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn</p>
+                                                <p style="font-size: 14px; color: black;">09:00 - 10:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Path intergral <br>control <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">09:00 - 10:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Multi-agent games: <br>Linear Quadratic games <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Maryam Kamgarpour</p>
+                                                <p style="font-size: 14px; color: black;">09:00 - 10:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_3 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Deterministic, discrete-time <br>& continuous-time control <br>(lecture)</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">09:15 - 10:45</p>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                            </td> -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>10:45 - 11:15</p>
+                                                <!-- <p style="font-size: 14px; color: black;">10:45 - 11:15</p> -->
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>10:30 - 11:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">10:30 - 11:00</p> -->
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>10:30 - 11:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">10:30 - 11:00</p> -->
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 18px; color: black;">Break <br>10:30 - 11:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">10:30 - 11:00</p> -->
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 18px; color: black;">Break <br>10:30 - 11:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">10:30 - 11:00</p> -->
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_4 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">10:45 - 11:15</p>
+                                            </td> -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Deterministic, discrete-time <br>& continuous-time control <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen & TAs</p>
+                                                <p style="font-size: 14px; color: black;">11:15 - 13:00 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Generalized policy iteration, <br>planning, partial observability <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Frans Oliehoek & TAs</p>
+                                                <p style="font-size: 14px; color: black;">11:00 - 12:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic <br>approximation <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn & TAs</p>
+                                                <p style="font-size: 14px; color: black;">11:00 - 12:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Path intergral <br>control <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen & TAs</p>
+                                                <p style="font-size: 14px; color: black;">11:00 - 12:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Multi-agent RL /<br> decentralized control <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Frans Oliehoek</p>
+                                                <p style="font-size: 14px; color: black;">11:00 - 12:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_5 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Deterministic, discrete-time <br>& continuous-time control</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen & TAs</p>
+                                                <p style="font-size: 14px; color: black;">11:15 - 13:00</p>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                            </td> -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break & Posters <br>13:00 - 14:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">13:00 - 14:00</p> -->
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break & Posters <br>12:45 - 14:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">12:45 - 14:00</p> -->
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break & Posters <br>12:45 - 14:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">12:45 - 14:00</p> -->
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break & Posters <br>12:45 - 14:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">12:45 - 14:00</p> -->
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break & Posters <br>12:30 - 14:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">12:30 - 14:00</p> -->
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_6 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Lunch Break <br>& Posters</p>
+                                                <p style="font-size: 14px; color: black;">13:00 - 14:00</p>
+                                            </td> -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic optimal <br>control <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">From linear to kernel methods <br>to function approximation <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Debabrota Basu</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Q-learning & TD-learning <br>(advanced) <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Exploration <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Optimism (UCRL, PSRL, <br>randomized VI) <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Debabrota Basu</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_7 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic optimal <br>control <br>(lecture)</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30</p>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                            </td> -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>15:30 - 16:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">15:30 - 16:00</p> -->
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>15:30 - 16:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">15:30 - 16:00</p> -->
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>15:30 - 16:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">15:30 - 16:00</p> -->
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>15:30 - 16:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">15:30 - 16:00</p> -->
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break <br>15:30 - 16:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">15:30 - 16:00</p> -->
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_8 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">15:30 - 16:00</p>
+                                            </td> -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic optimal <br>control <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen & TAs</p>
+                                                <p style="font-size: 14px; color: black;">16:00 - 17:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">From linear to kernel methods <br>to function approximation <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Debabrota Basu & TAs</p>
+                                                <p style="font-size: 14px; color: black;">14:00 - 15:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Q-learning & TD-learning <br>(advanced) <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn & TAs</p>
+                                                <p style="font-size: 14px; color: black;">16:00 - 17:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Safety in RL & control <br>- state space approach <br>[lecture]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Maryam Kamgarpour</p>
+                                                <p style="font-size: 14px; color: black;">16:00 - 17:30 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Bringing it all together <br>& open questions <br>[tutorial]</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Sean Meyn, <br>Debabrota Basu, <br>Aditya Gilra & TAs</p>
+                                                <p style="font-size: 14px; color: black;">16:00 - 17:45 <br>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    
+                                        <tr> <!-- SLOT_9 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #F3DCD4">
+                                                <p style="font-size: 16px; color: black;">Stochastic optimal <br>control <br>(tutorial)</p>
+                                                <p style="font-size: 16px; color: black;font-weight: 400;">Bert Kappen</p>
+                                                <p style="font-size: 14px; color: black;">16:00 - 17:45</p>
+                                                <a href="https://cwi-business-society.weticket.com/registration-control-theory/about" style="font-size: 14px; color: rgb(63, 66, 224);">
+                                                    <u>Slides</u>
+                                                </a>
+                                            </td> -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Social <br>17:45 - 18:30</p>
+                                                <!-- <p style="font-size: 14px; color: black;">17:45 - 18:30</p> -->
+                                            </td>
+                                            <!-- Tuesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Games evening <br>17:45 - 20:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">17:45 - 20:00</p> -->
+                                            </td>
+                                            <!-- Wednesday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Dinner <br>18:30 - 20:30</p>
+                                                <!-- <p style="font-size: 14px; color: black;">18:30 - 20:30</p> -->
+                                            </td>
+                                            <!-- Thursday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <!-- <p style="font-size: 16px; color: black;">Nothing</p>
+                                                <p style="font-size: 14px; color: black;">10:30 - 11:00</p> -->
+                                            </td>
+                                            <!-- Friday -->
+                                            <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Closing remarks <br>17:45 - 18:00</p>
+                                                <!-- <p style="font-size: 14px; color: black;">17:45 - 18:00</p> -->
+                                            </td>
+                                        </tr>
+
+                                        <tr> <!-- SLOT_10 -->
+                                            <!-- Monday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Social</p>
+                                                <p style="font-size: 14px; color: black;">17:45 - 18:30</p>
+                                            </td> -->
+                                            <!-- Tuesday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">10:30 - 11:00 AM</p>
+                                            </td> -->
+                                            <!-- Wednesday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">10:30 - 11:00 AM</p>
+                                            </td> -->
+                                            <!-- Thursday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">10:30 - 11:00 AM</p>
+                                            </td> -->
+                                            <!-- Friday -->
+                                            <!-- <td style="background-color: #D9E3DA">
+                                                <p style="font-size: 16px; color: black;">Break</p>
+                                                <p style="font-size: 14px; color: black;">10:30 - 11:00 AM</p>
+                                            </td> -->
+                                        </tr>
+
+                                        <!-- <tr>
+                                            <th scope="row">Day 3</th>
+                
+                                            <td class="table-background-image-wrap country-background-image">
+                                                <h3>Country Music</h3>
+
+                                                <p class="mb-2">4:30 - 7:30 PM</p>
+
+                                                <p>By Rihana</p>
+
+                                                <div class="section-overlay"></div>
+                                            </td>
+
+                                            <td style="background-color: #D1CFC0"></td>
+
+                                            <td>
+                                                <h3>Free Styles</h3>
+
+                                                <p class="mb-2">6:00 - 10:00 PM</p>
+
+                                                <p>By Members</p>
+                                            </td>
+                                        </tr> -->
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer class="site-footer">
+            <!-- <p class="copyright-text">Copyright © 2025 Rea Nkhumise</p> -->
+        </footer>
+
+<!--
+
+T e m p l a t e M o
+
+-->
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

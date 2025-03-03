@@ -216,6 +216,39 @@ strong {
   color: #2e2e2e;
 }
 
+
+/*---------------------------------------
+  CHATGPT - ADDITIONS               
+-----------------------------------------*/
+
+.image_paragraph-info {
+  display: flex;
+  flex-direction: row; /* Default: image and text side by side */
+  align-items: center;
+  gap: 20px; /* Space between text and image */
+}
+
+.text-content {
+  flex: 1; /* Text takes up remaining space */
+}
+
+.image-content img {
+  width: 200px; /* Adjust width as needed */
+  height: auto;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 992px) {
+  .image_paragraph-info {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      text-align: center;
+  }
+}
+
+
+
+
+
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
